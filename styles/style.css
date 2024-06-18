@@ -403,7 +403,6 @@
   /* border: 5px solid red; */
   align-items: center;
   justify-content: center;
-
 }
 .subscribe-inputs input[type="email"] {
   padding: 25px 30px;
@@ -435,3 +434,43 @@
   text-transform: capitalize;
   background-color: red;
 }
+
+/* footer section styles */
+
+.footer {
+  background: rgb(7, 2, 17);
+  padding: 120px 140px;
+}
+.footer p {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.contact{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.footer hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.footer-1st-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.footer-2nd-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.footer-3rd-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
